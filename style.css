@@ -202,9 +202,8 @@ section {
     
 }
 
-
-/* Estilos para telas menores que 768px */
-@media only screen and (max-width: 768px) {
+/* Estilos para dispositivos móveis */
+/* @media only screen and (max-width: 768px) {
     header {
         padding: 5px;
     }
@@ -249,9 +248,17 @@ section {
         width: 120px;
     }
 
+    .galeria {
+        overflow-x: scroll;
+        display: flex;
+        justify-content: flex-start;
+        padding: 10px;
+    }
+
     .galeria img {
         height: 300px;
         width: 240px;
+        margin-right: 10px;
     }
 
     .descricao {
@@ -265,7 +272,7 @@ section {
     .descricao span {
         font-size: 16px;
     }
-}
+} */
 
 /* Estilos para dispositivos móveis */
 @media only screen and (max-width: 768px) {
@@ -323,7 +330,7 @@ section {
     .galeria img {
         height: 300px;
         width: 240px;
-        margin-right: 10px;
+        margin-right: 10px; /* Adicionando margem entre as imagens */
     }
 
     .descricao {

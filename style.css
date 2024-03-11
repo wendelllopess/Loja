@@ -201,3 +201,140 @@ section {
     font-weight: 600;
     
 }
+
+
+/* Estilos para telas menores que 768px */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 5px;
+    }
+
+    .logo img {
+        margin-left: 10px;
+        height: 40px;
+        width: 60px;
+    }
+
+    nav ul {
+        margin-right: 20px;
+    }
+
+    nav ul li {
+        margin-left: 15px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .TextoApresentacao {
+        width: 80%;
+    }
+
+    .TextoApresentacao h1 {
+        font-size: 28px;
+    }
+
+    .TextoApresentacao h2 {
+        font-size: 20px;
+    }
+
+    #catalogo h2 {
+        font-size: 28px;
+    }
+
+    .categoria h3 {
+        font-size: 20px;
+        padding: 5px;
+        width: 120px;
+    }
+
+    .galeria img {
+        height: 300px;
+        width: 240px;
+    }
+
+    .descricao {
+        font-size: 16px;
+    }
+
+    .tituloProduto {
+        font-size: 18px;
+    }
+
+    .descricao span {
+        font-size: 16px;
+    }
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 5px;
+    }
+
+    .logo img {
+        margin-left: 10px;
+        height: 40px;
+        width: 60px;
+    }
+
+    nav ul {
+        margin-right: 20px;
+    }
+
+    nav ul li {
+        margin-left: 15px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .TextoApresentacao {
+        width: 80%;
+    }
+
+    .TextoApresentacao h1 {
+        font-size: 28px;
+    }
+
+    .TextoApresentacao h2 {
+        font-size: 20px;
+    }
+
+    #catalogo h2 {
+        font-size: 28px;
+    }
+
+    .categoria h3 {
+        font-size: 20px;
+        padding: 5px;
+        width: 120px;
+    }
+
+    .galeria {
+        overflow-x: scroll;
+        display: flex;
+        justify-content: flex-start;
+        padding: 10px;
+    }
+
+    .galeria img {
+        height: 300px;
+        width: 240px;
+        margin-right: 10px; /* Adicionando margem entre as imagens */
+    }
+
+    .descricao {
+        font-size: 16px;
+    }
+
+    .tituloProduto {
+        font-size: 18px;
+    }
+
+    .descricao span {
+        font-size: 16px;
+    }
+}

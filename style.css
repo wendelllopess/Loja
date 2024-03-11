@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:"Poppins", sans-serif ;
 }
 
 header {
@@ -48,7 +48,7 @@ nav ul li:first-child {
 nav ul li a {
     color: #09ff00;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 300;
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 20px;
@@ -103,18 +103,21 @@ section {
 .TextoApresentacao h1 {
     color: #09ff00;
     font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .TextoApresentacao h2 {
     color: #17e604;
     font-size: 25px;
     margin-top: 20px;
+    font-style: normal;
+    font-weight: 200;
 }
 
 
 #catalogo {
     background-color: #0c0c0c;
-    color: aqua;
 }
 
 #catalogo h2 {
@@ -122,17 +125,19 @@ section {
     align-items: center;
     justify-content: center;
     font-size: 32px;
-    font-weight: bold;
+    font-weight: 300;
     color: #09ff00;
     background-color: #111111;
     margin-bottom: 13px;
-
+    margin-top: 60px;
     border-radius: 12px;
 }
 
 .categoria h3{
     border: 1px solid #09ff00;
     font-size: 25px;
+    font-weight: 300;
+    font-style: normal;
     padding: 8px;
     margin-top: 2px;
     margin-left: 2px;
@@ -178,6 +183,7 @@ section {
 .descricao p {
     margin-left: 10px;
     margin-bottom: 6px;
+    font-weight: 200;
 }
 
 .tituloProduto{
@@ -192,5 +198,6 @@ section {
 .descricao span{
     color: #09ff00;
     font-size: 20px;
+    font-weight: 600;
     
 }

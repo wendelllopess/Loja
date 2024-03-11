@@ -323,7 +323,7 @@ section {
     .galeria img {
         height: 300px;
         width: 240px;
-        margin-right: 10px; /* Adicionando margem entre as imagens */
+        margin-right: 10px;
     }
 
     .descricao {
